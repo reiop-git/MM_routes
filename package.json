@@ -1,0 +1,14 @@
+{
+  "name": "murumehed-talvering",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Murumehed winter route planner",
+  "scripts": {
+    "dev": "node scripts/serve.cjs",
+    "test": "node check-simple.cjs && node check-data.cjs && node check-export.cjs",
+    "leak-check": "node scripts/leak-check.cjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
