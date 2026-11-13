@@ -1,0 +1,10 @@
+node_modules/
+.env
+.env.*
+!.env.example
+.wrangler/
+.DS_Store
+*.log
+private-backups/
+exports/
+private-data/
